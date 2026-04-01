@@ -14,11 +14,11 @@ Analyze COVID-19 deaths and vaccination data to understand global trends, mortal
 - Standardized column names  
 - Converted data types (dates, numerical values)  
 - Filtered irrelevant records  
- 📊 Business Questions Answered
+5. Business Questions Answered
 - How did COVID-19 death rates vary across countries?  
 - What is the relationship between vaccinations and death rates?  
 - Which countries had the highest infection and mortality rates?  
-🧾 Sample SQL Queries
+6. Sample SQL Queries
 SELECT location, MAX(total_cases) AS TotalCases
 FROM covid_data
 GROUP BY location
